@@ -1,0 +1,63 @@
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# Ignore sensitive environment files
+.env
+.env.backup
+.env.*.backup
+
+# Ignore Laravel-specific directories
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/bootstrap/cache
+
+# Ignore composer and node logs/lock files during deployment
+composer.lock
+yarn.lock
+npm-debug.log
+pnpm-debug.log
+package-lock.json
+
+# Ignore compiled assets and caches
+/public/hot
+/public/build
+/.vite
+
+# Laravel log files
+/storage/logs/*.log
+
+# Ignore IDE/project-specific files
+/.vscode
+/.idea
+/.phpunit.result.cache
+
+# Ignore test coverage files
+/coverage
+
+# Ignore backups and dumps
+*.sql
+*.sqlite
+
+# Ignore other unnecessary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
