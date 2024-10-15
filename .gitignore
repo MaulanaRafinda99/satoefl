@@ -1,8 +1,7 @@
 /node_modules
 /public/build
 /public/hot
-/public/storage
-/storage/*.key
+
 /vendor
 .env
 .env.backup
@@ -25,8 +24,7 @@ yarn-error.log
 # Ignore Laravel-specific directories
 /vendor
 /node_modules
-/public/storage
-/storage/*.key
+
 
 # Ignore composer and node logs/lock files during deployment
 composer.lock
