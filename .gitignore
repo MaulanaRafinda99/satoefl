@@ -27,7 +27,6 @@ yarn-error.log
 /node_modules
 /public/storage
 /storage/*.key
-/bootstrap/cache
 
 # Ignore composer and node logs/lock files during deployment
 composer.lock
@@ -53,7 +52,6 @@ package-lock.json
 /coverage
 
 # Ignore backups and dumps
-*.sql
 *.sqlite
 
 # Ignore other unnecessary files
