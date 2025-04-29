@@ -66,7 +66,7 @@
                 <span class="brand-text mt-2 ml-2">SATOEFL</span>
             </a>
 
-            <a class="nav-link custom-btn btn d-lg-none" href="#">Login</a>
+            <a class="nav-link custom-btn btn d-lg-none" href="sesi">Login</a>
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">

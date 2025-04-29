@@ -141,7 +141,7 @@
                 </div>
 
                 <div class="center">
-                    <p style="padding-left: 30px;">Already Have Account? <a href="sesi">Login</a></p>
+                    <p style="padding-left: 30px; text">Already Have Account? <a href="sesi"><b><u style="color: #00BFD4;">Login<u></b></a></p>
                 </div>
                 <button name="submit" type="submit">Register
                     <i class="zmdi zmdi-arrow-right"></i>

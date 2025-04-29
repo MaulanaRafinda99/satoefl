@@ -79,7 +79,7 @@
         </script>
     @endif
 
-    <div class="wrapper" style="background-image: url('images/login-bg.jpg');">
+    <div class="wrapper" style="background-image: url('images/login-bg.jpg'); size: 100%; position:relative;">
         <div class="inner">
             <div class="image-holder">
                 <img src="images/avatar-login.jpg" alt="">
@@ -89,18 +89,18 @@
                 @csrf
                 <div class="form-wrapper">
                     <input type="email" name="email" value="{{ Session::get('email') }}" placeholder="Email Address"
-                        class="form-control">
-                    <i class="zmdi zmdi-email"></i>
+                        class="form-control zmdi zmdi-email" style="padding-left: 10px">
+                    <i class="zmdi zmdi-email" style="margin-right: 10px; margin-top:8px;"></i>
                 </div>
                 <div class="form-wrapper">
-                    <input type="password" placeholder="Password" id="password"class="form-control" name="password">
-                    <a href="#" class="toggle-password" onclick="togglePasswordVisibility()">
+                    <input type="password" placeholder="Password" id="password"class="form-control" name="password" style="padding-left: 10px">
+                    <a href="#" class="toggle-password" style="margin-right: 10px; margin-top:8px;" onclick="togglePasswordVisibility()">
                         <i class="far fa-eye" id="togglePassword"></i>
                     </a>
                 </div>
                 <div class="center">
                     <a href="register"></a>
-                    <p>Don't have an account? <a href="register"><b><u>Register<u></b></a></p>
+                    <p>Don't have an account? <a href="register"><b><u  style="color: #00BFD4;">Register<u></b></a></p>
                 </div>
                 <button name="submit" type="submit">Login
                     <i class="zmdi zmdi-arrow-right"></i>

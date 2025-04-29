@@ -4527,7 +4527,7 @@ use Carbon\Carbon;
                                         style="
                                             color: #004c6c;
                                             font-weight: 700;
-                                            font-size: 50px;
+                                            font-size: 50 px;
                                             
                                         ">
                                     </p><span id="iggjAJkEbfdaHyra"

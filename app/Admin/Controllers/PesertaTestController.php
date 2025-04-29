@@ -114,7 +114,7 @@ class PesertaTestController extends AdminController
         $form->number('nilaiList', __('NilaiList'))->attribute(['id' => 'nilaiList']);
         $form->number('nilaiRdg', __('NilaiRdg'))->attribute(['id' => 'nilaiRdg']);
         $form->number('score', __('Score'))->attribute(['id' => 'score'])->readonly();
-        $form->text('keterangan', __('Keterangan'))->attribute(['id' => 'keterangan']);
+        $form->text('keterangan', __('Keterangan'))->attribute(['id' => 'keterangan'])->readonly();
 
         $form->html($this->getCalculationScript());
 
